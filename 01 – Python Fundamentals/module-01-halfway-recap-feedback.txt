@@ -1,0 +1,231 @@
+MODULE 1 HALFWAY RECAP FEEDBACK
+Python Learning Project
+
+Student: Tibi
+Assessment: Module 1 Halfway Recap
+Progress at time of assessment: 13/26 lessons complete
+Overall result: PASS
+
+==================================================
+SECTION 1: WRITTEN QUESTIONS
+==================================================
+
+Score: 9.5 / 12
+Percentage: 79.2%
+
+Question 1:
+Mostly correct.
+The predicted values were correct, but the exact third output line should be:
+
+<class 'int'>
+
+Writing "Int" showed the correct understanding of the data type, but it was not the exact Python output.
+
+Question 2:
+Correct.
+
+Expected output:
+
+Almost complete.
+Check finished.
+
+Question 3:
+Correct.
+
+Expected output:
+
+Work can continue.
+At least one condition succeeded.
+
+Question 4:
+Correct.
+
+Expected output:
+
+Attempt 2
+Attempt 3
+Attempt 4
+Final value: 5
+
+Question 5:
+Output prediction was correct.
+
+Expected output:
+
+Day 1
+Day 2
+Day 3
+Finished
+
+The explanation was missing. Day 4 does not appear because the stopping value in range(1, 4) is excluded.
+
+Question 6:
+Correct.
+
+A single equals sign (=) assigns a value.
+A double equals sign (==) compares two values for equality.
+
+Question 7:
+Needs improvement.
+
+A while loop does not specifically compare two values, and a for loop does not run until a condition is met.
+
+A clearer distinction is:
+
+- while: repeats while a condition remains True
+- for: repeats once for each item in a sequence or range
+
+A while loop is useful when the number of repetitions may not be known in advance.
+A for loop is useful when iterating through known values or items.
+
+Question 8:
+Mostly correct.
+
+Two separate if statements are independent. Both, one, or neither may run.
+
+An if/elif structure chooses only the first successful branch, then skips the remaining branches.
+
+Question 9:
+Correct idea.
+
+The loop also runs when current_session is 4 because 4 <= 4 is True.
+That repetition increases the value to 5.
+The next check, 5 <= 4, is False, so the loop stops.
+
+Question 10:
+Correct.
+
+The print statement must be indented for the program to run.
+The preferred Boolean style is:
+
+if not target_completed:
+
+instead of:
+
+if target_completed == False:
+
+Question 11:
+Correct.
+
+Using != would also treat values above the target as requiring more study.
+The correct comparison for an incomplete target is:
+
+completed_hours < planned_hours
+
+Question 12:
+Partly correct.
+
+The total calculation and its print statement should move outside the loop because they only need to run once.
+
+Using day_number outside the loop is not ideal because it represents the current loop value rather than clearly representing the number of days.
+
+A clearer approach would use descriptive variables such as:
+
+number_of_days = 5
+hours_per_day = 2
+
+total_hours = number_of_days * hours_per_day
+
+==================================================
+SECTION 2: CODING CHALLENGE
+==================================================
+
+Score: 10 / 10
+Percentage: 100%
+
+The program successfully:
+
+- Printed the student name, planned hours, and completed hours using f-strings
+- Calculated the remaining hours
+- Created target_complete using a comparison
+- Used if, elif, and else correctly
+- Printed remaining hours only when the target was incomplete
+- Combined and with not correctly
+- Used a for loop with range() for days 1 through 3
+- Used a while loop for review rounds 1 through 3
+- Updated the while-loop counter correctly
+- Kept repeated code inside loops
+- Kept one-time code outside loops
+- Completed without runtime errors
+- Produced the expected output
+
+The submitted loop logic was correct:
+
+for day_number in range(first_day, final_day + 1):
+    print(f"Planned study day {day_number}")
+
+while review_round <= 3:
+    print(f"Review round {review_round}")
+    review_round = review_round + 1
+
+==================================================
+OVERALL GRADE
+==================================================
+
+Written questions: 9.5 / 12
+Coding challenge: 10 / 10
+
+Total: 19.5 / 22
+Overall percentage: 88.6%
+
+Final result: PASS
+
+==================================================
+STRENGTHS
+==================================================
+
+Strongest areas:
+
+- Variables and arithmetic
+- Strings and f-strings
+- Comparison operators
+- if, elif, and else
+- Boolean operators: and, or, and not
+- Identifying straightforward logic errors
+- Calculating and storing values rather than hard-coding results
+- Correcting mistakes after receiving hints
+- Writing code that follows the requested structure
+
+==================================================
+AREAS TO REVISIT
+==================================================
+
+The main area requiring more practice is loops.
+
+Topics to revisit:
+
+- Choosing between for and while
+- Understanding what range() produces
+- Remembering that the stopping value in range() is excluded
+- Tracking counter values before and after each repetition
+- Deciding which lines belong inside a loop
+- Deciding which lines should run once after a loop
+- Avoiding dependence on a loop variable for unrelated calculations outside the loop
+
+The coding challenge demonstrated that the user can write working for and while loops with guidance. However, explaining the concepts and tracing them mentally still requires practice.
+
+These topics must be reassessed at the end of Module 1 before the module is considered fully complete.
+
+==================================================
+MENTOR ASSESSMENT
+==================================================
+
+The halfway recap was passed comfortably.
+
+The student retained most concepts from the first half of Module 1 and demonstrated strong practical performance in the coding challenge.
+
+The difference between the written score and coding score suggests that practical implementation is currently stronger than verbal explanation, especially for loops.
+
+Future lessons should continue using:
+
+- Output prediction
+- Code explanation in the student's own words
+- Debugging exercises
+- Small independent coding tasks
+- Targeted loop practice
+- End-of-module reassessment of previous difficulties
+
+Module progress after assessment:
+
+13 / 26 lessons complete
+50% of Module 1 complete
