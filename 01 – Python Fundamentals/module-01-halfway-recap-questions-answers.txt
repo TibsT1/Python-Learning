@@ -1,0 +1,68 @@
+Question 1:
+
+Completed: 12
+Remaining: 6
+Int
+
+
+Question 2:
+
+Almost complete.
+Check finished.
+
+
+Question 3:
+
+Work can continue.
+At least one condition succeeded.
+
+
+Question 4:
+
+Attempt 2
+Attempt 3
+Attempt 4
+Final value: 5
+
+
+Question 5:
+
+Day 1
+Day 2
+Day 3
+Finished
+
+
+Question 6:
+
+A single equal sign assigns a value while a double equal sign checks if 2 values are the same.
+
+
+Question 7:
+
+A while loop compares 2 values, a for loop runs until a condition is met like with the range function.
+
+
+Question 8:
+
+Double if statements allows both statements to be printed while the elif only allows one statement to be printed.
+
+
+Question 9:
+
+Because the while loop runs until the value is equal to 4, then it runs one last time and adds the extra 1 which makes it a 5.
+
+
+Question 10:
+
+First is an IndentationError for the if statement, the print is supposed to have 1 indent, and second is the == False, it can just be replaced with "if not target_completed:"
+
+
+Question 11:
+
+Because if the completed hours goes over the planned hours it would still display the "More study is required", instead of the != put a <
+
+
+Question 12:
+
+First of all, move the variable assigning line "total_hours = 5 * 2" and the last print out of the for loop, second of all, instead of the numbers for the total_hours variable, use the variable values like "day_number" since that's what it's trying to calculate anyway I think
