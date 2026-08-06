@@ -1,0 +1,228 @@
+MODULE 1 FINAL ASSESSMENT FEEDBACK
+Python Learning Project
+
+Student: Tibi
+Assessment: Module 1 Final Assessment
+Normal lessons completed: 26/26
+Final assessment grade: 90.9%
+Final result: PASS
+Module status: COMPLETE
+
+==================================================
+GRADING POLICY
+==================================================
+
+This assessment was graded from the first submitted attempt.
+
+The score is final unless the student explicitly requests a separate retake.
+Corrections shown in the feedback do not increase or reduce the original grade.
+Mistakes will be recorded and revisited in later lessons, practice tasks, and future assessments.
+
+==================================================
+SECTION A: KNOWLEDGE QUIZ
+==================================================
+
+Score: 18.7 / 20
+Percentage: 93.5%
+Weight: 30%
+Weighted contribution: 28.1 / 30
+
+Question 1: 2 / 2
+Correct output and data types.
+
+Question 2: 2 / 2
+Correct output and explanation of why string methods did not alter raw_role.
+
+Question 3: 2 / 2
+Correct conditional output.
+
+Question 4: 3 / 3
+Correct output, repetition count, range explanation, and accumulated total.
+
+Question 5: 1.5 / 2
+The output was correct.
+The final value of review_round was not explicitly stated.
+Its final value is 4 because the counter is increased after printing Round 3.
+
+Question 6: 2.4 / 3
+Correct:
+- topics_list can be modified using an index
+- module_details is immutable
+- sets keep unique values
+- module_details[-1] returns 26
+
+The dictionary access should be:
+
+student["name"]
+
+Writing student[name] makes Python look for a variable called name.
+
+Question 7: 2 / 2
+Correct function output, parameters, arguments, and print-versus-return explanation.
+
+Question 8: 2 / 2
+Correct invalid-input output and ValueError explanation.
+
+Question 9: 1 / 1
+Correct exception type, failing line, and likely correction.
+
+Question 10: 0.8 / 1
+The task was broken into sensible steps.
+A more precise order would be:
+1. Ask for the input
+2. Try to convert it
+3. Compare the converted value with 24
+4. Display the appropriate result
+5. Handle ValueError if conversion fails
+
+==================================================
+SECTION B: DEBUGGING AND LOOP REASSESSMENT
+==================================================
+
+Score: 15 / 15
+Percentage: 100%
+Weight: 25%
+Weighted contribution: 25 / 25
+
+The corrected program successfully:
+- Prints study days 1 through 4
+- Calculates 8 total hours without relying on the loop variable
+- Prints review rounds 1 through 3
+- Accesses the final list item correctly
+- Reaches the final program message
+
+The debugging notes correctly identified:
+- IndexError
+- The invalid index 4
+- range() excluding its stop value
+- The difference between < and <= in the while loop
+- Why the total should use final_day rather than day_number
+
+This demonstrates meaningful improvement in the loop topics that were difficult during the halfway assessment.
+
+==================================================
+SECTION C: FINAL COMBINED PROGRAM
+==================================================
+
+Score: 21 / 25
+Percentage: 84.0%
+Weight: 45%
+Weighted contribution: 37.8 / 45
+
+Functions and return values: 4 / 5
+- Both calculation functions correctly use parameters and return values.
+- display_review_rounds works correctly.
+- display_study_topics contains a loop-variable and output bug.
+
+Collections and data handling: 4 / 4
+- Correct use of a list, tuple, set, and dictionary.
+- Correct tuple indexing.
+- Correct set membership and add().
+- Correct dictionary creation and key access.
+- Using one hint to remember dictionary braces was acceptable.
+
+Input and exception handling: 4 / 4
+- Correct input handling.
+- Correct string cleaning with strip() and title().
+- Correct int() conversion.
+- Correct try/except ValueError.
+- Invalid input exits the successful path cleanly.
+
+Conditions and Boolean logic: 3 / 4
+- if/elif/else progress categories work correctly.
+- Remaining hours print only when incomplete.
+- Free-evening logic behaves correctly.
+- target_completed was assigned manually inside branches instead of being created once from a comparison.
+
+Loops: 2.5 / 4
+- The while loop is correct.
+- The for loop repeats the correct number of times.
+- The topic loop prints the complete list during every repetition instead of the current item.
+- The function ignores its topics parameter and uses the global study_topics list.
+- The plural loop-variable name makes the code harder to reason about.
+
+Structure, output, and testing: 3.5 / 4
+- Functions are defined before the main program.
+- One-time and repeated sections are mostly separated correctly.
+- All three required tests were performed.
+- The percentage works, though formatting it to fewer decimal places would improve readability.
+- The repeated full-list output is the main output defect.
+
+==================================================
+OVERALL RESULT
+==================================================
+
+Section A: 93.5% × 30% = 28.1%
+Section B: 100% × 25% = 25.0%
+Section C: 84.0% × 45% = 37.8%
+
+Overall weighted grade: 90.9%
+
+Final result: PASS
+Module 1 status: COMPLETE
+
+==================================================
+MISTAKES TO REVISIT LATER
+==================================================
+
+1. Looping through a list inside a function
+- Use the function parameter rather than an unrelated global variable.
+- Use a singular loop-variable name for one item.
+- Print the current loop item rather than the complete collection.
+
+Correct pattern:
+
+def display_study_topics(topics):
+    for topic in topics:
+        print(f"Studied topic: {topic}")
+
+2. Creating Boolean values from comparisons
+Instead of manually assigning True and False in several branches:
+
+target_completed = completed_hours >= planned_hours
+
+3. Dictionary key syntax
+Use quotation marks around literal string keys:
+
+student["name"]
+
+4. Tracking a loop counter after the loop
+A counter may finish one value beyond the final printed value.
+
+5. Navigating larger programs
+The student reported getting lost when reading a longer file, especially around functions and condition blocks.
+Future lessons should reinforce:
+- Small functions
+- Clear section spacing
+- Descriptive names
+- Testing one section at a time
+- Following execution from the main program into functions
+
+==================================================
+STRENGTHS
+==================================================
+
+The student demonstrated strong understanding of:
+- Variables and data types
+- Arithmetic and strings
+- Conditions and Boolean operators
+- Lists, tuples, sets, and dictionaries
+- Function parameters and return values
+- User input and conversion
+- Exception handling
+- Traceback-guided debugging
+- Breaking a program into smaller steps
+- for-loop and while-loop boundary corrections
+- Testing valid and invalid input paths
+
+==================================================
+READINESS DECISION
+==================================================
+
+The student has passed Module 1 and is ready to continue to Module 2.
+
+The remaining mistakes do not invalidate the strong overall performance.
+They will be revisited later through targeted practice and future assessments rather than through post-exam regrading.
+
+Final Module 1 grade: 90.9%
+Module 1: COMPLETE

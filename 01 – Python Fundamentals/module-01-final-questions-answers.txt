@@ -1,0 +1,66 @@
+Question 1:
+7
+5.0
+<class 'int'>
+<class 'float'>
+
+Question 2:
+junior PYTHON developer
+Junior Python Developer
+   junior PYTHON developer   
+
+raw_role doesn't change because nothing changed it, the "changes" made to it have been assigned to a different variable.
+
+Question 3:
+Nearly complete.
+A study session is available.
+
+Question 4:
+Day 1
+Day 2
+Day 3
+Day 4
+Total: 8
+
+1. 4 times
+2. because the loop stops at the number before the second number given in range
+3. because the total_hours updates with each loop and it adds 2 everytime from 0
+
+Question 5:
+Round 1
+Round 2
+Round 3
+Finished
+
+Question 6:
+1. topics_list
+2. module_details
+3. because it auto-deletes duplicates
+4. student[name]
+5. 26
+
+Question 7:
+5
+
+1. planned and completed
+2. 24, 19
+3. print displays information and return gives a value back to the code
+
+Question 8:
+Checker started.
+Enter hours: nineteen
+Invalid whole number.
+Checker finished.
+
+conversion failed because it was given a non-numerical string which can't be converted to int
+
+Question 9:
+1. NameError
+2. line 8
+3. replace "completed_hour" with the correct variable name
+
+Question 10:
+Step 1: Ask user for completed study hours
+Step 2: Compare it against a 24 hour target
+Step 3: Add error handling for invalid input
+Step 4: Display whether or not the user reached the target
